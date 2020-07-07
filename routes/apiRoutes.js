@@ -9,13 +9,15 @@ module.exports = (app) => {
   });
 
   // * POST `/api/notes` - Should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
+
+  //   Had help with TA for this.
   app.post("/api/notes", (req, res) => {
     let newNote = req.body;
     console.log(newNote);
     notesDb.push(newNote);
     fs.writeFile(
       "./db/db.json",
-      JSON.stringify(NotesDb),
+      JSON.stringify(notesDb),
       "utf8",
       (err) => {
         if (err) {
