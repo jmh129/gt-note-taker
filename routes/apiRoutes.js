@@ -1,4 +1,5 @@
 // The following API routes should be created:
+let notesData = require("../db/db.json")
 
 // * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
 
