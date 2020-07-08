@@ -19,7 +19,8 @@ Note: Make sure to run npm install as this application makes use of node package
 ### Usage
 This application is for anyone who wants to create notes and be able to save and delete them as they see fit. All the user needs to do is navigate to the note page, write their notes and click the save icon. To delete, the user just needs to click on the trash can next to their desired note.  
 
-### Link to Deployed Heroku Site: https://infinite-oasis-43679.herokuapp.com/
+### Link to Deployed Heroku Site: 
+https://infinite-oasis-43679.herokuapp.com/
 
 ### Example Demo:
 ### Entering Notes
