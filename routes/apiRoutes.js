@@ -14,7 +14,6 @@ module.exports = (app) => {
   // Setting Post Route
   app.post("/api/notes", (req, res) => {
     let newNote = req.body;
-    console.log(newNote);
     notesDb.push(newNote);
     // Adds the ID # for each note.
     notesDb.forEach((note, i) => (note.id = ++i));
